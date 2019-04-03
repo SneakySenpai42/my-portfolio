@@ -1,0 +1,166 @@
+body {
+    background-color: #117794;
+}
+
+p, li, h1 {
+    color: #fff;
+}
+.nav li a:hover {
+    background-color: transparent;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: rgba(17, 17, 17, .5);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fcfcfc;
+    text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus {
+    color: #00BB27;
+    background-color: rgba(17, 17, 17, .2);
+}
+
+nav.navbar {
+    position: absolute;
+    top: 100;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.navbar-brand>img {
+    margin-top: -7px;
+}
+
+.wrap {
+    min-height: 100vh;
+}
+
+.carousel {
+    margin-bottom: 60px;
+}
+
+.carousel-caption {
+    z-index: 10;
+    padding-bottom: 60px;
+}
+
+.carousel-inner .item {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main_img1 {
+    background-image: url('../img/code2.jpg');
+}
+
+.main_img2 {
+    background-image: url('../img/code.jpg');
+}
+
+.main_logo {
+    max-height: 200px;
+}
+
+.carousel-caption p {
+    color: #f7f7f7;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #d34326;
+    border-color: transparent;
+}
+
+.text-color {
+    color: #ECD568;
+}
+
+.about-container {
+    padding: 50px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.avatardev {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+}
+
+.about-content {
+    background-color: #0E3C55;
+    padding-top: 15px;
+}
+
+.colmd {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.thumbnail {
+    border: transparent;
+}
+
+.thumbnail > img:hover {
+    opacity: 0.3;
+}
+
+/* contact section */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=subit] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
