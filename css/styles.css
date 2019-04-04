@@ -1,10 +1,14 @@
+/* world */
 body {
     background-color: #117794;
 }
 
 p, li, h1 {
     color: #fff;
+    font-family: 'Noto Sans', sans-serif;
 }
+
+/* nav section */
 .nav li a:hover {
     background-color: transparent;
 }
@@ -41,10 +45,7 @@ nav.navbar {
     margin-top: -7px;
 }
 
-.wrap {
-    min-height: 100vh;
-}
-
+/* CAROUSEL SECTION */
 .carousel {
     margin-bottom: 60px;
 }
@@ -69,6 +70,10 @@ nav.navbar {
     background-image: url('../img/code.jpg');
 }
 
+.main_img3 {
+    background-image: url('../img/coffee.jpg');
+}
+
 .main_logo {
     max-height: 200px;
 }
@@ -78,8 +83,8 @@ nav.navbar {
     font-size: 16px;
 }
 
-.btn-primary:hover {
-    background-color: #d34326;
+.btn-primary, .submit:hover {
+    background-color: #2cd326;
     border-color: transparent;
 }
 
@@ -113,6 +118,19 @@ nav.navbar {
     border-right: 1px solid black;
 }
 
+/* PROJECT SECTION */
+
+.proj-row {
+    margin-right: 10px;
+    padding-right: 90px;
+}
+
+.proj_icon {
+    font-size: 2em;
+    color: #fff;
+    margin-left: 115px;
+}
+
 .thumbnail {
     border: transparent;
 }
@@ -137,7 +155,7 @@ label {
     display: inline-block;
 }
 
-input[type=subit] {
+input[type=submit] {
     background-color: #4caf50;
     color: #fff;
     padding: 12px 20px;
@@ -145,6 +163,12 @@ input[type=subit] {
     border-radius: 4px;
     cursor: pointer;
     float: right;
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
 .col-25 {
@@ -164,3 +188,17 @@ input[type=subit] {
     display: table;
     clear: both;
 }
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  /* footer */
+
+  .foot {
+      padding-top: 10vh;
+  }
+  

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Luis Rosario Portfolio</title>
 </head>
@@ -30,10 +31,10 @@
 						<a href="#" class="nav-link">Home<span class="sr-only">(current)</span></a>
 					</li>
 					<li>
-						<a href="#our_story" class="nav-link">My Story</a>
+						<a href="#about" class="nav-link">About</a>
 					</li>
 					<li>
-						<a href="#review" class="nav-link">Projects</a>
+						<a href="#projects" class="nav-link">Projects</a>
 					</li>
 					<li>
 						<a href="#contact" class="nav-link">Contact</a>
@@ -49,13 +50,14 @@
             <ol class="carousel-indicators">
                 <li data-target="myCarousel" data-slide-to="0"></li>
                 <li data-target="myCarousel" data-slide-to="1"></li>
+                <li data-target="myCarousel" data-slide-to="2"></li>
             </ol>
         <div class="carousel-inner">
             <div class="item main_img1 active">
                 <div class="carousel-caption">
-                    <h1>This is me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, consequuntur.</p>
-                    <a href=" " class="btn btn-lg btn-primary">Stuff</a>
+                    <h1>Luis Rosario</h1>
+                    <p>Frontend Devolper based in the Central Valley</p>
+                    <a href="/pdf/resume.pdf" class="btn btn-lg btn-primary" download>Want a resume?</a>
                 </div>
             </div>
             <div class="item main_img2">
@@ -63,6 +65,11 @@
                     <h1>Want to see my code?</h1>
                     <p>This link leads to this websites github</p>
                     <a href="https://github.com/SneakySenpai42/my-portfolio" target="_blank" class="btm btn-lg btn-primary">Learn More</a>
+                </div>
+            </div>
+            <div class="item main_img3">
+                <div class="carousel-caption">
+                    <h1>Thank you for visting</h1>
                 </div>
             </div>
         </div>
@@ -77,10 +84,10 @@
         </a>
     </div>
 
-<section data-spy="scroll" class="mystory" id="mystory">
+<section data-spy="scroll" class="about" id="about">
     <div class="about-container">
         <div class="text-center">
-            <h1 class="text-center">This is me</h1>
+            <h1 class="text-center">About</h1>
             <div class="about-content text-center row">
                 <div class="col-md-4 about-col-left">
                     <img class="avatar" src="img/student.png" alt="Avatar">
@@ -130,21 +137,24 @@
 
 </section>
 
+<!-- PROJECT SECTION -->
+
 <section data-spy="scroll" class="projects" id="projects">
     <div class="container">
-        <div class="row">
+        <h1 class="text-center">Projects</h1>
+        <div class="row proj-row">
             <div class="col-md-5 col-md-offset-1">
                 <a href="#" class="thumbnail border-0">
                     <img src="img/restaurante.jpg" alt="restaurante website thumbnail">
-                        <a href="https://github.com/SneakySenpai42/mfw-restaurante" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://sneakysenpai42.github.io/mfw-restaurante/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/SneakySenpai42/mfw-restaurante" target="_blank"><i class="proj_icon fab fa-github"></i></a>
+                        <a href="https://sneakysenpai42.github.io/mfw-restaurante/" target="_blank"><i class="proj_icon fas fa-external-link-alt"></i></a>
                 </a>
             </div>
             <div class="col-md-5 col-md-offset-1">
                 <a href="#" class="thumbnail">
                     <img src="img/petstore.jpg"  alt="pet store websire thumbnail">
-                    <a href="https://github.com/SneakySenpai42/mfw-pet-store" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://sneakysenpai42.github.io/mfw-pet-store/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://github.com/SneakySenpai42/mfw-pet-store" target="_blank"><i class="proj_icon fab fa-github"></i></a>
+                    <a href="https://sneakysenpai42.github.io/mfw-pet-store/" target="_blank"><i class="proj_icon fas fa-external-link-alt"></i></a>
                 </a>
             </div>
         </div>
@@ -159,8 +169,8 @@
     <div class="container">
         <h1 class="text-center">Contact</h1>
         <div class="row">
-            <div class="col-sm-6 col-md-5 col-md-offset-1"
-        <form action="action_page.php">
+            <div class="col-sm-6 col-md-5 col-md-offset-1">
+        <form class="form" action="action_page.php">
             <div class="row">
                 <div class="col-25">
                     <label for="fname">First Name</label>
@@ -174,7 +184,7 @@
                     <label for="lname">Last Name</label>
                 </div>
                 <div class="col-75">
-                    <input for="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
                 </div>
             </div>
             <div class="row">
@@ -200,16 +210,23 @@
                 </div>
             </div>
             <div class="row">
-                <input type="submit" value="Submit">
+                <input class="submit" type="submit" value="Submit">
             </div>
         </form>
         </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.604240146298!2d-119.78796568471212!3d36.732064979962736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809460a5cfdf4b6b%3A0xab092ce50c284a0a!2sBitwise+Industries!5e0!3m2!1sen!2sus!4v1554356201548!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
     </div>
 </section>
 
 <footer class="foot" id="foot">
-
+    <div class="row">
+        <div class="text-center">
+            <a href="https://github.com/SneakySenpai42" target="_blank"><i class="fab fa-github" style="font-size: 2em;"></i></a>
+            <a href="https://www.linkedin.com/in/luis-rosario-791289171" target="_blank"><i class="fab fa-linkedin-in" style="font-size: 2em;"></i></a>
+            <p>&copy All rights owned by Luis Rosario</p>
+        </div>
+    </div>
 </footer>
 
 </body>
