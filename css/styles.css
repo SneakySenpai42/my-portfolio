@@ -201,4 +201,8 @@ input[type=submit] {
   .foot {
       padding-top: 10vh;
   }
+
+  .foot_icon {
+      color: #fff;
+  }
   
